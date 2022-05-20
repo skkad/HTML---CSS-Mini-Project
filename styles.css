@@ -1,1 +1,116 @@
+#landing{
+    background: #fff;
+    display: flex;
+    height: 100%;
+}
+
+#images{
+    padding-top: 10px;
+}
+
+#landing-text{
+    height: 100vh;
+    display: flex;
+    flex: 0 1 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-image{
+    height: 100vh;
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-position:center ;
+    background-size: cover;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+#landing-text h2{
+    color: #888;
+}
+
+.btn{
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    padding: 1rem 3rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #fff;
+    background-color: #333;
+}
+
+#header h2{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
